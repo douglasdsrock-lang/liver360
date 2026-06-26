@@ -14,13 +14,8 @@ document.addEventListener("DOMContentLoaded", () => {
         touchMultiplier: 2,
     });
 
-    function raf(time) {
-        lenis.raf(time);
-        requestAnimationFrame(raf);
-    }
-    requestAnimationFrame(raf);
+    lenis.on('scroll', ScrollTrigger.update);
 
-    // Sync GSAP with Lenis
     gsap.ticker.add((time) => {
         lenis.raf(time * 1000);
     });
