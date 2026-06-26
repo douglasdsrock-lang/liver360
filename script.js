@@ -308,4 +308,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
         startAutoSlide();
     });
+
+    // Fix for mobile: Recalculate ScrollTrigger positions after all images and fonts load
+    window.addEventListener('load', () => {
+        ScrollTrigger.refresh();
+    });
 });
