@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liver 360° | Seu fígado não pode esperar</title>
+    <meta name="description"
+        content="O Liver 360° é um programa intensivo de 6 meses criado para pessoas que receberam diagnóstico de esteatose hepática e decidiram agir com método.">
+
+    <!-- Open Graph / Facebook / WhatsApp -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://liver360.com.br/">
+    <meta property="og:title" content="Liver 360° | Seu fígado não pode esperar">
+    <meta property="og:description"
+        content="O Liver 360° é um programa intensivo de 6 meses criado para pessoas que receberam diagnóstico de esteatose hepática e decidiram agir com método.">
+    <meta property="og:image" content="https://liver360.com.br/logotipo.webp">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://liver360.com.br/">
+    <meta property="twitter:title" content="Liver 360° | Seu fígado não pode esperar">
+    <meta property="twitter:description"
+        content="O Liver 360° é um programa intensivo de 6 meses criado para pessoas que receberam diagnóstico de esteatose hepática e decidiram agir com método.">
+    <meta property="twitter:image" content="https://liver360.com.br/logotipo.webp">
+
+    <!-- Structured Data: local business & medical business -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalBusiness",
+      "name": "Liver Instituto do Fígado de Goiás",
+      "alternateName": "Liver 360°",
+      "description": "Programa multidisciplinar de 6 meses para controle e tratamento avançado da esteatose hepática supervisionado pela Drª Patrícia Borges.",
+      "url": "https://liver360.com.br/",
+      "logo": "https://liver360.com.br/logotipo.webp",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Goiânia",
+        "addressRegion": "GO",
+        "addressCountry": "BR"
+      },
+      "founder": {
+        "@type": "Person",
+        "name": "Drª Patrícia Borges",
+        "jobTitle": "Hepatologista"
+      }
+    }
+    </script>
+
+    <link rel="icon" type="image/webp" href="logotipo.webp">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Lenis Smooth Scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.18/dist/lenis.css" />
+    <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+
+    <!-- GSAP & ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <link rel="stylesheet" href="style.css?v=2">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="logotipo.webp" alt="Liver 360°">
+            </div>
+
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="#programa">O PROGRAMA</a></li>
+                    <li><a href="#paraquem">PARA QUEM É</a></li>
+                    <li><a href="#metodo">COMO FUNCIONA</a></li>
+                    <li><a href="#exames">O QUE VOCÊ RECEBE</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </nav>
+
+            <!-- Hamburger Button -->
+            <button class="mobile-menu-btn" aria-label="Abrir menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+
+        <!-- Mobile Drawer Menu -->
+        <div class="mobile-menu-drawer">
+            <nav class="mobile-nav">
+                <ul>
+                    <li><a href="#programa">O PROGRAMA</a></li>
+                    <li><a href="#paraquem">PARA QUEM É</a></li>
+                    <li><a href="#metodo">COMO FUNCIONA</a></li>
+                    <li><a href="#exames">O QUE VOCÊ RECEBE</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-bg-pattern"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1>Seu fígado<br><span style="white-space: nowrap;"><span class="highlight-text txtgradiente">não pode esperar<svg class="brush-stroke"
+                            viewBox="0 0 300 20" preserveAspectRatio="none">
+                            <path d="M5,15 Q150,-5 295,15" stroke="var(--secondary-color)" stroke-width="6" fill="none"
+                                stroke-linecap="round" />
+                        </svg></span>.</span><br>E você já sabe disso.</h1>
+
+                <p class="hero-desc">O Liver 360° é um programa intensivo de 6 meses criado para pessoas que receberam
+                    diagnóstico de esteatose hepática e decidiram agir com método — não com tentativas.</p>
+
+                <a href="#" class="btn btn-hero">
+                    <span>
+                        <i data-lucide="arrow-right" class="btn-arrow-left"></i>
+                        QUERO SABER MAIS
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" class="whatsapp-icon-btn">
+                            <path
+                                d="M12.004 2c-5.51 0-9.996 4.486-9.996 9.998 0 1.763.46 3.42 1.258 4.877L2 22l5.25-1.378a9.954 9.954 0 0 0 4.754 1.207c5.51 0 9.996-4.487 9.996-10c0-5.511-4.486-10-9.996-10zm0 1.667c4.593 0 8.329 3.737 8.329 8.331 0 4.594-3.736 8.333-8.329 8.333-1.636 0-3.158-.475-4.453-1.29l-.319-.202-3.112.817.831-3.033-.221-.351a8.28 8.28 0 0 1-1.077-4.103c.002-4.594 3.739-8.342 8.332-8.342zm-3.6 4.385c-.198 0-.329.07-.48.239-.17.189-.652.637-.652 1.554s.667 1.802.76 1.93c.094.127 1.286 2.052 3.167 2.784.448.175.797.279 1.071.365.452.143.863.123 1.189.075.362-.054 1.116-.456 1.272-.895.156-.438.156-.816.109-.895-.047-.079-.171-.127-.36-.221-.189-.094-1.116-.551-1.289-.614-.172-.062-.298-.094-.424.094-.127.189-.49.614-.6.74-.11.127-.22.142-.41.047-.189-.094-.799-.294-1.522-.938-.562-.5-.943-1.118-1.053-1.307-.11-.189-.012-.292.083-.386.086-.085.19-.221.285-.332.094-.11.127-.189.189-.316.062-.127.031-.239-.016-.333-.047-.094-.424-1.021-.58-1.401-.153-.369-.311-.319-.425-.325-.109-.005-.236-.006-.363-.006z" />
+                        </svg>
+                    </span>
+                </a>
+
+                <div class="hero-pillars">
+                    <div class="pillar">
+                        <i data-lucide="target" class="pillar-icon"></i>
+                        <span class="pillar-text">MÉTODO<br><strong>COMPROVADO</strong></span>
+                    </div>
+                    <div class="pillar">
+                        <i data-lucide="calendar" class="pillar-icon"></i>
+                        <span class="pillar-text">6 MESES<br><strong>DE TRANSFORMAÇÃO</strong></span>
+                    </div>
+                    <div class="pillar">
+                        <i data-lucide="user-plus" class="pillar-icon"></i>
+                        <span class="pillar-text">ACOMPANHAMENTO<br><strong>HUMANO E PRÓXIMO</strong></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="hero-circle-mask">
+                    <img src="hero_man_1782164757094.png" alt="Homem saudável" class="hero-image">
+                </div>
+
+                <div class="hero-badge" id="floating-badge">
+                    <img src="liver_graphic_1782164774562.png" alt="Liver Icon" class="badge-icon-img">
+                    <div class="badge-title">MÉTODO 360°</div>
+                    <div class="badge-subtitle">CORPO • FÍGADO • MENTE</div>
+                    <div class="badge-desc">RESULTADOS REAIS</div>
+                </div>
+
+                <img src="liver_graphic_1782164774562.png" alt="Gráfico Fígado" class="hero-liver-overlay"
+                    id="floating-liver">
+            </div>
+        </div>
+
+        <!-- Curva inferior -->
+        <div class="hero-bottom-curve">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="M0,60 C400,120 1040,0 1440,80 L1440,120 L0,120 Z" fill="var(--primary-color)"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- WRAPPER 1: Dores e Problema com Abstract Background -->
+    <div class="parallax-section" style="background-image: url('medical_abstract_1782165970215.png');">
+        <div class="parallax-overlay"></div>
+
+        <!-- PAIN SECTION (Seção 1) -->
+        <section class="pt-xl pain-section relative-z">
+            <div class="container">
+                <div class="section-header text-center light-header">
+                    <h2 class="section-title text-white">Você se identifica com alguma dessas situações?</h2>
+                </div>
+
+                <div class="pain-grid">
+                    <div class="pain-card glass-card interactive-card">
+                        <div class="pain-icon"><i data-lucide="search"></i></div>
+                        <div class="pain-content">
+                            <p>Recebeu o diagnóstico de esteatose hepática e não sabe exatamente o que fazer.</p>
+                        </div>
+                    </div>
+                    <div class="pain-card glass-card interactive-card">
+                        <div class="pain-icon"><i data-lucide="activity"></i></div>
+                        <div class="pain-content">
+                            <p>Seus exames continuam alterados mesmo depois de "tentar" mudar a alimentação.</p>
+                        </div>
+                    </div>
+                    <div class="pain-card glass-card interactive-card">
+                        <div class="pain-icon"><i data-lucide="refresh-ccw"></i></div>
+                        <div class="pain-content">
+                            <p>Já fez dieta, parou, começou de novo — e o resultado não sustentou.</p>
+                        </div>
+                    </div>
+                    <div class="pain-card glass-card interactive-card">
+                        <div class="pain-icon"><i data-lucide="alert-triangle"></i></div>
+                        <div class="pain-content">
+                            <p>Tem medo de que isso evolua para algo mais grave.</p>
+                        </div>
+                    </div>
+                    <div class="pain-card glass-card interactive-card">
+                        <div class="pain-icon"><i data-lucide="clipboard-list"></i></div>
+                        <div class="pain-content">
+                            <p>Quer acompanhamento estruturado, não orientações soltas.</p>
+                        </div>
+                    </div>
+                    <div class="pain-card glass-card interactive-card">
+                        <div class="pain-icon"><i data-lucide="brain"></i></div>
+                        <div class="pain-content">
+                            <p>Sente-se cansado, sem energia e desmotivado para manter uma rotina saudável.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pain-conclusion text-center">
+                    <strong class="text-white">Se você respondeu sim em qualquer uma delas, o Liver 360° foi criado para
+                        você.</strong>
+                </div>
+            </div>
+
+            <!-- Curva inferior para transição suave -->
+            <div style="position: absolute; bottom: -79px; left: 0; width: 100%; line-height: 0; z-index: 3;">
+                <svg viewBox="0 0 1440 120" preserveAspectRatio="none"
+                    style="display: block; width: 100%; height: 80px;">
+                    <path d="M0,0 C480,120 960,120 1440,0 L1440,0 L0,0 Z" fill="var(--primary-color)"></path>
+                </svg>
+            </div>
+        </section>
+
+        <!-- THE REAL PROBLEM (Seção 2) -->
+        <section class="relative-z pb-xl pt-xl">
+            <div class="container">
+                <div class="problem-card glass-card-solid interactive-card scroll-3d">
+                    <div class="problem-content">
+                        <div class="problem-text">
+                            <span class="section-subtitle">O Problema Real</span>
+                            <h2 class="section-title">A esteatose hepática não é apenas um exame alterado.</h2>
+                            <p>Ela é um marcador metabólico silencioso. Pode evoluir para inflamação, fibrose e, nos
+                                casos mais avançados, cirrose hepática. O problema não é a falta de informação.
+                                <strong>O problema é a falta de método.</strong>
+                            </p>
+                            <p>Consultas isoladas não controlam esteatose. Dieta sem acompanhamento não sustenta
+                                mudança. Motivação sem estrutura não dura 6 semanas.</p>
+                            <p>O que funciona é acompanhamento multidisciplinar, estruturado, com metas claras e
+                                monitoramento real.</p>
+                            <div class="problem-highlight">
+                                É exatamente isso que o Liver 360° entrega.
+                            </div>
+                        </div>
+                        <div class="problem-visual">
+                            <div class="medical-badge">
+                                <i data-lucide="activity"></i>
+                            </div>
+                            <img src="liver_graphic_1782164774562.png" alt="Medical Icon" class="abstract-liver">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Divider to next section -->
+        <div class="wave-divider wave-bottom-white">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="M0,120 C320,0 1120,0 1440,120 L1440,120 L0,120 Z" fill="#FFFFFF"></path>
+            </svg>
+        </div>
+    </div>
+
+
+    <!-- THE PROGRAM (Seção 3) -->
+    <section id="programa" class="bg-base pb-0">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-subtitle">O Programa</span>
+                <h2 class="section-title">O que é o Liver 360°?</h2>
+                <p class="section-desc">Um programa intensivo de 6 meses desenvolvido pelo <strong>Liver Instituto do
+                        Fígado de Goiás</strong>, com acompanhamento completo de uma equipe multidisciplinar
+                    especializada.</p>
+            </div>
+
+            <div class="program-features-premium">
+                <div class="feature-card interactive-card">
+                    <div class="feature-icon"><i data-lucide="stethoscope"></i></div>
+                    <h4>Hepatologista</h4>
+                    <p>Drª Patrícia Borges</p>
+                </div>
+                <div class="feature-card interactive-card">
+                    <div class="feature-icon"><i data-lucide="apple"></i></div>
+                    <h4>Nutricionista</h4>
+                    <p>Especializada em metabolismo</p>
+                </div>
+                <div class="feature-card interactive-card">
+                    <div class="feature-icon"><i data-lucide="activity"></i></div>
+                    <h4>Educadora Física</h4>
+                    <p>Direcionamento personalizado</p>
+                </div>
+                <div class="feature-card interactive-card">
+                    <div class="feature-icon"><i data-lucide="users"></i></div>
+                    <h4>Avaliação Complementar</h4>
+                    <p>Com Endocrinologista e Cardiologista</p>
+                </div>
+            </div>
+
+            <div class="program-note-highlight text-center interactive-card">
+                <h3>Não é um pacote de consultas.</h3>
+                <p>É um <strong>método estruturado</strong> com plano individual, metas definidas, exames incluídos e
+                    monitoramento real ao longo de cada fase.</p>
+                <div class="badge-alert">
+                    <i data-lucide="alert-circle"></i> Vagas limitadas por turma
+                </div>
+                <p style="font-size: 0.95rem; margin-top: 0.5rem; opacity: 0.8;">Para garantir acompanhamento
+                    individualizado.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- WRAPPER 2: Metodologia e Exames com Clinic Interior Background -->
+    <div class="parallax-section" style="background-image: url('clinic_interior_1782165980495.png');">
+        <div class="parallax-overlay-light"></div>
+
+        <!-- Divider from top -->
+        <div class="wave-divider wave-top-white">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="M0,120 C320,0 1120,0 1440,120 L1440,120 L0,120 Z" fill="#FFFFFF"></path>
+            </svg>
+        </div>
+
+        <!-- 3 PHASES (Seção 4) -->
+        <section id="metodo" class="relative-z pt-xl">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">Metodologia</span>
+                    <h2 class="section-title">Uma jornada de 6 meses, dividida em 3 fases de transformação.</h2>
+                </div>
+
+                <div class="phases-container scroll-3d">
+                    <!-- Fase 1 -->
+                    <div class="phase-card glass-card-light interactive-card">
+                        <div class="phase-number">01</div>
+                        <div class="phase-content">
+                            <span class="phase-meta">Meses 1 e 2</span>
+                            <h3>Decisão e Direção</h3>
+                            <p class="phase-desc">Você deixa de improvisar e passa a seguir um método.</p>
+                            <ul class="phase-list">
+                                <li><i data-lucide="check-circle-2"></i> Avaliação completa com hepatologista</li>
+                                <li><i data-lucide="check-circle-2"></i> Avaliação nutricional e metabólica detalhada
+                                </li>
+                                <li><i data-lucide="check-circle-2"></i> Plano alimentar estruturado</li>
+                                <li><i data-lucide="check-circle-2"></i> Direcionamento de atividade física
+                                    personalizada</li>
+                                <li><i data-lucide="check-circle-2"></i> Definição de metas clínicas e comportamentais
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Fase 2 -->
+                    <div class="phase-card glass-card-light interactive-card" style="margin-top: 2rem;">
+                        <div class="phase-number">02</div>
+                        <div class="phase-content">
+                            <span class="phase-meta">Meses 3 e 4</span>
+                            <h3>Ajuste e Consistência</h3>
+                            <p class="phase-desc">Mudança não é motivação. É consistência orientada.</p>
+                            <ul class="phase-list">
+                                <li><i data-lucide="check-circle-2"></i> Reavaliação de marcadores metabólicos</li>
+                                <li><i data-lucide="check-circle-2"></i> Ajustes nutricionais conforme evolução</li>
+                                <li><i data-lucide="check-circle-2"></i> Monitoramento da adesão ao plano</li>
+                                <li><i data-lucide="check-circle-2"></i> Estratégias para superar platôs</li>
+                                <li><i data-lucide="check-circle-2"></i> Educação prática e fortalecimento de hábitos
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Fase 3 -->
+                    <div class="phase-card glass-card-light interactive-card" style="margin-top: 2rem;">
+                        <div class="phase-number">03</div>
+                        <div class="phase-content">
+                            <span class="phase-meta">Meses 5 e 6</span>
+                            <h3>Consolidação e Autonomia</h3>
+                            <p class="phase-desc">Você não termina dependente. Você termina preparado.</p>
+                            <ul class="phase-list">
+                                <li><i data-lucide="check-circle-2"></i> Reavaliação clínica e comparação de exames</li>
+                                <li><i data-lucide="check-circle-2"></i> Análise de resultados metabólicos</li>
+                                <li><i data-lucide="check-circle-2"></i> Estratégia de manutenção</li>
+                                <li><i data-lucide="check-circle-2"></i> Plano pós-programa individualizado</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Divider to Carousel -->
+        <div class="wave-divider wave-bottom-white">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="M0,120 C320,0 1120,0 1440,120 L1440,120 L0,120 Z" fill="var(--primary-color)"></path>
+            </svg>
+        </div>
+    </div>
+
+    <!-- CARROSSEL DE BENEFÍCIOS -->
+    <section class="carousel-section">
+        <div class="carousel-wrapper">
+            <div class="fade-overlay fade-left"></div>
+            <div class="fade-overlay fade-right"></div>
+            <div class="carousel-track animate-left" id="carousel-row-1">
+                <!-- Injetado via JS -->
+            </div>
+        </div>
+        <div class="carousel-wrapper">
+            <div class="fade-overlay fade-left"></div>
+            <div class="fade-overlay fade-right"></div>
+            <div class="carousel-track animate-right" id="carousel-row-2">
+                <!-- Injetado via JS -->
+            </div>
+        </div>
+        <!-- Divider to Exames -->
+        <div class="wave-divider wave-bottom-white">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="M0,120 C320,0 1120,0 1440,120 L1440,120 L0,120 Z" fill="#FFFFFF"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- EXAMES INCLUSOS & PARA QUEM É (Seção 5 e 6) -->
+    <section id="exames" class="bg-base" style="padding-top: 8rem; padding-bottom: 10rem;">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-subtitle">O Que Você Recebe</span>
+                <h2 class="section-title">O programa inclui exames estratégicos de monitoramento</h2>
+                <p class="section-desc">Você acompanha sua evolução com dados reais, não por sensação.</p>
+            </div>
+
+            <div class="exams-premium-grid">
+                <div class="exam-premium-card interactive-card">
+                    <div class="exam-icon-large"><i data-lucide="bar-chart-2"></i></div>
+                    <div class="exam-info">
+                        <h4>USG Body Metrix</h4>
+                        <p>Composição corporal com precisão clínica</p>
+                        <span class="exam-qty">3 avaliações inclusas</span>
+                    </div>
+                </div>
+                <div class="exam-premium-card interactive-card">
+                    <div class="exam-icon-large"><i data-lucide="file-heart"></i></div>
+                    <div class="exam-info">
+                        <h4>Elastografia Hepática</h4>
+                        <p>Mapeamento do grau de fibrose do fígado</p>
+                        <span class="exam-qty">2 avaliações inclusas</span>
+                    </div>
+                </div>
+                <div class="exam-premium-card interactive-card">
+                    <div class="exam-icon-large"><i data-lucide="scan"></i></div>
+                    <div class="exam-info">
+                        <h4>USG Abdome Superior</h4>
+                        <p>Avaliação morfológica completa</p>
+                        <span class="exam-qty">2 avaliações inclusas</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="target-audience-block" id="paraquem">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">Perfil</span>
+                    <h2 class="section-title">O Liver 360° é para você que:</h2>
+                </div>
+
+                <div class="audience-grid">
+                    <div class="audience-card interactive-card">
+                        <i data-lucide="check-circle" class="audience-check"></i>
+                        <p>Possui diagnóstico confirmado ou suspeita de esteatose hepática</p>
+                    </div>
+                    <div class="audience-card interactive-card">
+                        <i data-lucide="check-circle" class="audience-check"></i>
+                        <p>Tem exames alterados e quer controle real</p>
+                    </div>
+                    <div class="audience-card interactive-card">
+                        <i data-lucide="check-circle" class="audience-check"></i>
+                        <p>Apresenta resistência insulínica, sobrepeso ou síndrome metabólica</p>
+                    </div>
+                    <div class="audience-card interactive-card">
+                        <i data-lucide="check-circle" class="audience-check"></i>
+                        <p>Já tentou mudar sozinho e não conseguiu manter</p>
+                    </div>
+                    <div class="audience-card interactive-card">
+                        <i data-lucide="check-circle" class="audience-check"></i>
+                        <p>Quer acompanhamento médico estruturado — não dicas da internet</p>
+                    </div>
+                    <div class="audience-card interactive-card">
+                        <i data-lucide="check-circle" class="audience-check"></i>
+                        <p>Está disposto a assumir um compromisso de 6 meses com sua saúde</p>
+                    </div>
+                </div>
+
+                <div class="audience-conclusion">
+                    <p>Este programa não é para quem busca solução rápida. <strong>É para quem decidiu agir com
+                            seriedade.</strong></p>
+                </div>
+            </div>
+        </div>
+        <!-- Divider to Authority -->
+        <div class="wave-divider wave-bottom-white">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="M0,120 C320,0 1120,0 1440,120 L1440,120 L0,120 Z" fill="var(--primary-color)"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- AUTHORITY & DIFFERENTIALS (Seção 7 e 8) -->
+    <section class="authority-section">
+        <div class="authority-bg"></div>
+        <div class="container">
+            <!-- NOVA SEÇÃO INSTITUTO AQUI -->
+            <div class="authority-layout inverted" style="margin-bottom: 8rem;">
+                <div class="authority-content-wrapper">
+                    <span class="section-subtitle">Onde tudo acontece</span>
+                    <h2 class="authority-name">Liver Instituto</h2>
+                    <h3 class="authority-role">Referência em Hepatologia e Saúde Metabólica</h3>
+                    
+                    <!-- Carousel for Mobile -->
+                    <div class="stylish-carousel mobile-carousel">
+                        <div class="carousel-slides">
+                            <img src="assets/clinica/ROD03608-rmzkxstfbtpi4nbifyu771cn7lqlvre8fhj1515e9c.webp" alt="Estrutura Liver Instituto 1" class="carousel-slide active">
+                            <img src="assets/clinica/ROD03690-rmzky8sok0bdm0oaunquvfbhb5juim5o5omaaqhpbk.webp" alt="Estrutura Liver Instituto 2" class="carousel-slide">
+                            <img src="assets/clinica/ROD03703-rmzl1dlbc4lsb84gk0i36musle3w6algl6wjvxugkw.webp" alt="Estrutura Liver Instituto 3" class="carousel-slide">
+                            <img src="assets/clinica/ROD03709-rmzl38butd557jfiqbcllo0irqyycsyeid80yl3ib4.webp" alt="Estrutura Liver Instituto 4" class="carousel-slide">
+                            <img src="assets/clinica/ROD03710-rmzl3p8y8dsb0iqxzinvujqtgonk7ctkkoyrlkef74.webp" alt="Estrutura Liver Instituto 5" class="carousel-slide">
+                            <img src="assets/clinica/ROD03714-rmzl4cqwz8oh2rst6atk2vtcbbfqjseuzx9wlhfkvk.webp" alt="Estrutura Liver Instituto 6" class="carousel-slide">
+                        </div>
+                        
+                        <button class="carousel-control prev" aria-label="Imagem Anterior">
+                            <i data-lucide="chevron-left"></i>
+                        </button>
+                        <button class="carousel-control next" aria-label="Próxima Imagem">
+                            <i data-lucide="chevron-right"></i>
+                        </button>
+
+                        <div class="carousel-indicators">
+                            <span class="indicator active" data-slide="0"></span>
+                            <span class="indicator" data-slide="1"></span>
+                            <span class="indicator" data-slide="2"></span>
+                            <span class="indicator" data-slide="3"></span>
+                            <span class="indicator" data-slide="4"></span>
+                            <span class="indicator" data-slide="5"></span>
+                        </div>
+
+                        <div class="carousel-badge">
+                            <i data-lucide="map-pin"></i> Goiânia, GO
+                        </div>
+                    </div>
+
+                    <p class="authority-desc" style="margin-bottom: 1.5rem; font-size: 1.1rem;">O <strong>Liver Instituto do Fígado de Goiás</strong> é um centro médico de excelência projetado para oferecer um cuidado integral e de ponta a pacientes com doenças hepáticas.</p>
+                    
+                    <p class="authority-desc">Acreditamos que o ambiente de tratamento é parte fundamental da cura e do controle de condições metabólicas. Nossa infraestrutura foi pensada para acolher, transmitir tranquilidade e, ao mesmo tempo, entregar precisão diagnóstica com equipamentos de última geração.</p>
+                    
+                    <div class="institute-features" style="display: flex; gap: 1.5rem; margin-top: 2.5rem;">
+                        <div class="inst-feat" style="display: flex; flex-direction: column; gap: 0.5rem;">
+                            <i data-lucide="check-circle-2" style="color: var(--secondary-color);"></i>
+                            <span style="font-weight: 600; font-size: 0.95rem; color: #fff;">Estrutura<br>Premium</span>
+                        </div>
+                        <div class="inst-feat" style="display: flex; flex-direction: column; gap: 0.5rem;">
+                            <i data-lucide="check-circle-2" style="color: var(--secondary-color);"></i>
+                            <span style="font-weight: 600; font-size: 0.95rem; color: #fff;">Tecnologia<br>Avançada</span>
+                        </div>
+                        <div class="inst-feat" style="display: flex; flex-direction: column; gap: 0.5rem;">
+                            <i data-lucide="check-circle-2" style="color: var(--secondary-color);"></i>
+                            <span style="font-weight: 600; font-size: 0.95rem; color: #fff;">Atendimento<br>Humanizado</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stylish-carousel desktop-carousel">
+                    <div class="carousel-slides">
+                        <img src="assets/clinica/ROD03608-rmzkxstfbtpi4nbifyu771cn7lqlvre8fhj1515e9c.webp" alt="Estrutura Liver Instituto 1" class="carousel-slide active">
+                        <img src="assets/clinica/ROD03690-rmzky8sok0bdm0oaunquvfbhb5juim5o5omaaqhpbk.webp" alt="Estrutura Liver Instituto 2" class="carousel-slide">
+                        <img src="assets/clinica/ROD03703-rmzl1dlbc4lsb84gk0i36musle3w6algl6wjvxugkw.webp" alt="Estrutura Liver Instituto 3" class="carousel-slide">
+                        <img src="assets/clinica/ROD03709-rmzl38butd557jfiqbcllo0irqyycsyeid80yl3ib4.webp" alt="Estrutura Liver Instituto 4" class="carousel-slide">
+                        <img src="assets/clinica/ROD03710-rmzl3p8y8dsb0iqxzinvujqtgonk7ctkkoyrlkef74.webp" alt="Estrutura Liver Instituto 5" class="carousel-slide">
+                        <img src="assets/clinica/ROD03714-rmzl4cqwz8oh2rst6atk2vtcbbfqjseuzx9wlhfkvk.webp" alt="Estrutura Liver Instituto 6" class="carousel-slide">
+                    </div>
+                    
+                    <button class="carousel-control prev" aria-label="Imagem Anterior">
+                        <i data-lucide="chevron-left"></i>
+                    </button>
+                    <button class="carousel-control next" aria-label="Próxima Imagem">
+                        <i data-lucide="chevron-right"></i>
+                    </button>
+
+                    <div class="carousel-indicators">
+                        <span class="indicator active" data-slide="0"></span>
+                        <span class="indicator" data-slide="1"></span>
+                        <span class="indicator" data-slide="2"></span>
+                        <span class="indicator" data-slide="3"></span>
+                        <span class="indicator" data-slide="4"></span>
+                        <span class="indicator" data-slide="5"></span>
+                    </div>
+
+                    <div class="carousel-badge">
+                        <i data-lucide="map-pin"></i> Goiânia, GO
+                    </div>
+                </div>
+            </div>
+
+            <div class="authority-layout">
+                <div class="authority-image-wrapper">
+                    <img src="assets/dra-patricia.webp" alt="Drª Patrícia Borges" class="doctor-img">
+                    <div class="doctor-badge">
+                        <i data-lucide="award"></i> Liver Instituto
+                    </div>
+                </div>
+
+                <div class="authority-content-wrapper">
+                    <span class="section-subtitle">Quem está à frente?</span>
+                    <h2 class="authority-name">Drª Patrícia Borges</h2>
+                    <h3 class="authority-role">Hepatologista | Liver Instituto do Fígado de Goiás</h3>
+
+                    <div class="authority-quote-box">
+                        <i data-lucide="quote" class="quote-icon"></i>
+                        <p>"Ao longo da minha prática, observei pacientes tentando controlar a esteatose sozinhos, com
+                            dietas, tentativas e frustrações. O que falta, quase sempre, não é força de vontade. É
+                            estrutura. É método. Foi por isso que desenvolvemos o Liver 360°: para oferecer o
+                            acompanhamento que essa doença exige de verdade."</p>
+                    </div>
+
+                    <p class="authority-desc">O Liver Instituto do Fígado de Goiás é referência no diagnóstico e
+                        tratamento de doenças hepáticas. O Liver 360° nasce dessa estrutura, com a mesma seriedade
+                        clínica aplicada agora a um programa completo de controle metabólico.</p>
+                </div>
+            </div>
+
+            <!-- Differentials inside the same premium section -->
+            <div class="differentials-block">
+                <div class="section-header text-center">
+                    <h2 class="section-title text-white">Por que o Liver 360° é diferente?</h2>
+                </div>
+                <div class="diff-grid">
+                    <div class="diff-card interactive-card">
+                        <div class="diff-icon"><i data-lucide="users"></i></div>
+                        <h4>Turmas Reduzidas</h4>
+                        <p>Máximo de 12 participantes por turma. Não é limitação — é compromisso com resultado.</p>
+                    </div>
+                    <div class="diff-card interactive-card">
+                        <div class="diff-icon"><i data-lucide="git-merge"></i></div>
+                        <h4>Equipe Integrada</h4>
+                        <p>Profissionais trabalhando juntos com um único objetivo: o controle consistente da sua
+                            esteatose.</p>
+                    </div>
+                    <div class="diff-card interactive-card">
+                        <div class="diff-icon"><i data-lucide="activity"></i></div>
+                        <h4>Exames Incluídos</h4>
+                        <p>Você não paga à parte pelos exames de monitoramento. Eles fazem parte do método.</p>
+                    </div>
+                    <div class="diff-card interactive-card">
+                        <div class="diff-icon"><i data-lucide="target"></i></div>
+                        <h4>Método, não consulta</h4>
+                        <p>Protocolo estruturado com metas reais e reavaliações periódicas, sem orientações soltas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WRAPPER 3: Process & Escassez with Healthy Lifestyle Background -->
+    <div class="parallax-section" style="background-image: url('healthy_lifestyle_1782165989625.png');">
+        <!-- Overlay with gradient dark green to transparent -->
+        <div class="parallax-overlay-gradient"></div>
+
+        <!-- Divider to Authority -->
+        <div class="wave-divider wave-top-white">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="M0,120 C320,0 1120,0 1440,120 L1440,120 L0,120 Z" fill="var(--primary-color)"></path>
+            </svg>
+        </div>
+
+        <!-- PROCESS (Seção 9) -->
+        <section class="relative-z pt-xl">
+            <div class="container">
+                <div class="section-header text-center light-header">
+                    <span class="section-subtitle text-white">Inscrição</span>
+                    <h2 class="section-title text-white">Como funciona o processo de entrada no programa?</h2>
+                    <p class="section-desc text-white" style="opacity: 0.9;">O Liver 360° não tem inscrição aberta ao
+                        público. O processo é seletivo para garantir que cada participante esteja preparado para o
+                        comprometimento que o programa exige.</p>
+                </div>
+
+                <div class="process-modern">
+                    <div class="process-step">
+                        <div class="process-number">01</div>
+                        <div class="process-content glass-card-dark">
+                            <h4>Fale pelo WhatsApp</h4>
+                            <p>Nossa equipe vai entrar em contato para entender seu histórico e perfil clínico.</p>
+                        </div>
+                    </div>
+                    <div class="process-connector"><i data-lucide="arrow-right"></i></div>
+                    <div class="process-step">
+                        <div class="process-number">02</div>
+                        <div class="process-content glass-card-dark">
+                            <h4>Triagem Estratégica</h4>
+                            <p>Você responde perguntas simples para avaliarmos se o programa é adequado para o seu
+                                momento.</p>
+                        </div>
+                    </div>
+                    <div class="process-connector"><i data-lucide="arrow-right"></i></div>
+                    <div class="process-step">
+                        <div class="process-number">03</div>
+                        <div class="process-content glass-card-dark">
+                            <h4>Confirmação e Início</h4>
+                            <p>Se aprovado, você recebe os detalhes e inicia o programa na próxima turma.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- URGENCY BANNER (Seção 10) -->
+                <div class="urgency-banner" style="margin-top: 6rem;">
+                    <div class="urgency-bg-glow"></div>
+                    <div class="urgency-content-wrapper">
+                        <div class="urgency-text-area">
+                            <div class="urgency-badge">
+                                <i data-lucide="alert-circle"></i> ATENÇÃO: VAGAS LIMITADAS
+                            </div>
+                            <h2>Trabalhamos com turmas de no máximo <strong>12 participantes</strong>.</h2>
+                            <p>Isso é feito para garantir que a equipe multidisciplinar tenha total atenção e controle
+                                sobre o seu acompanhamento durante os 6 meses.</p>
+                            <p class="urgency-call">Se você está lendo isso agora, ainda pode garantir sua vaga.</p>
+                        </div>
+
+                        <div class="urgency-action-area">
+                            <div class="urgency-alert">
+                                <strong>Lista de Espera</strong>
+                                Quando as vagas da turma atual forem preenchidas, abriremos uma lista para a próxima
+                                edição — sem data definida.
+                            </div>
+                            <a href="#" class="btn btn-hero">
+                                <span>GARANTIR MINHA VAGA
+                                    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"
+                                        class="whatsapp-icon-btn">
+                                        <path
+                                            d="M12.004 2c-5.51 0-9.996 4.486-9.996 9.998 0 1.763.46 3.42 1.258 4.877L2 22l5.25-1.378a9.954 9.954 0 0 0 4.754 1.207c5.51 0 9.996-4.487 9.996-10c0-5.511-4.486-10-9.996-10zm0 1.667c4.593 0 8.329 3.737 8.329 8.331 0 4.594-3.736 8.333-8.329 8.333-1.636 0-3.158-.475-4.453-1.29l-.319-.202-3.112.817.831-3.033-.221-.351a8.28 8.28 0 0 1-1.077-4.103c.002-4.594 3.739-8.342 8.332-8.342zm-3.6 4.385c-.198 0-.329.07-.48.239-.17.189-.652.637-.652 1.554s.667 1.802.76 1.93c.094.127 1.286 2.052 3.167 2.784.448.175.797.279 1.071.365.452.143.863.123 1.189.075.362-.054 1.116-.456 1.272-.895.156-.438.156-.816.109-.895-.047-.079-.171-.127-.36-.221-.189-.094-1.116-.551-1.289-.614-.172-.062-.298-.094-.424.094-.127.189-.49.614-.6.74-.11.127-.22.142-.41.047-.189-.094-.799-.294-1.522-.938-.562-.5-.943-1.118-1.053-1.307-.11-.189-.012-.292.083-.386.086-.085.19-.221.285-.332.094-.11.127-.189.189-.316.062-.127.031-.239-.016-.333-.047-.094-.424-1.021-.58-1.401-.153-.369-.311-.319-.425-.325-.109-.005-.236-.006-.363-.006z" />
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Divider to FAQ -->
+        <div class="wave-divider wave-bottom-white">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="M0,120 C320,0 1120,0 1440,120 L1440,120 L0,120 Z" fill="#FFFFFF"></path>
+            </svg>
+        </div>
+    </div>
+
+
+    <!-- FAQ (Seção 11) -->
+    <section id="faq" class="bg-base pb-0">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-subtitle">Dúvidas Frequentes</span>
+                <h2 class="section-title">Tem alguma pergunta?</h2>
+            </div>
+
+            <div class="faq-modern-list">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>O programa é presencial ou online?</span>
+                        <div class="faq-icon-box"><i data-lucide="plus"></i></div>
+                    </button>
+                    <div class="faq-answer">
+                        <p>O programa combina consultas presenciais na clínica com retornos que podem ser realizados de
+                            forma online, conforme orientação da equipe.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Preciso ter diagnóstico confirmado para participar?</span>
+                        <div class="faq-icon-box"><i data-lucide="plus"></i></div>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Ter um diagnóstico estabelecido ou suspeita clínica de esteatose hepática é necessário.
+                            Durante a triagem, nossa equipe avaliará seu perfil.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>E se eu não conseguir comparecer a alguma consulta?</span>
+                        <div class="faq-icon-box"><i data-lucide="plus"></i></div>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Os retornos têm flexibilidade de formato (presencial ou online). Fale com nossa equipe para
+                            entender as condições de cada etapa.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>O preço é informado antes da triagem?</span>
+                        <div class="faq-icon-box"><i data-lucide="plus"></i></div>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sim — mas apenas após a triagem inicial, quando nossa equipe entende seu perfil e confirma
+                            que o programa é adequado para você. Esse é o nosso processo padrão.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Posso participar mesmo morando fora de Goiânia?</span>
+                        <div class="faq-icon-box"><i data-lucide="plus"></i></div>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Entre em contato pelo WhatsApp e nossa equipe avaliará as condições de participação conforme
+                            sua localização.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA FINAL (Seção 12) -->
+    <section class="cta-final mt-xl">
+        <div class="cta-curve-top">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="M0,120 C400,0 1040,0 1440,120 L1440,0 L0,0 Z" fill="#FFFFFF"></path>
+            </svg>
+        </div>
+        <div class="container relative-z">
+            <h2>A esteatose não evolui em um dia.<br>Mas ela evolui.</h2>
+            <p>E em algum momento, cada pessoa precisa decidir se vai continuar adiando ou se vai assumir o controle. O
+                Liver 360° não é para quem quer tentar. <strong>É para quem decidiu.</strong></p>
+            <p style="font-size: 1.1rem; margin-bottom: 3rem;">As vagas da turma atual são limitadas. Nossa equipe está
+                pronta para te receber.</p>
+            <a href="#" class="btn btn-hero">
+                <span>QUERO FALAR COM A EQUIPE
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" class="whatsapp-icon-btn">
+                        <path
+                            d="M12.004 2c-5.51 0-9.996 4.486-9.996 9.998 0 1.763.46 3.42 1.258 4.877L2 22l5.25-1.378a9.954 9.954 0 0 0 4.754 1.207c5.51 0 9.996-4.487 9.996-10c0-5.511-4.486-10-9.996-10zm0 1.667c4.593 0 8.329 3.737 8.329 8.331 0 4.594-3.736 8.333-8.329 8.333-1.636 0-3.158-.475-4.453-1.29l-.319-.202-3.112.817.831-3.033-.221-.351a8.28 8.28 0 0 1-1.077-4.103c.002-4.594 3.739-8.342 8.332-8.342zm-3.6 4.385c-.198 0-.329.07-.48.239-.17.189-.652.637-.652 1.554s.667 1.802.76 1.93c.094.127 1.286 2.052 3.167 2.784.448.175.797.279 1.071.365.452.143.863.123 1.189.075.362-.054 1.116-.456 1.272-.895.156-.438.156-.816.109-.895-.047-.079-.171-.127-.36-.221-.189-.094-1.116-.551-1.289-.614-.172-.062-.298-.094-.424.094-.127.189-.49.614-.6.74-.11.127-.22.142-.41.047-.189-.094-.799-.294-1.522-.938-.562-.5-.943-1.118-1.053-1.307-.11-.189-.012-.292.083-.386.086-.085.19-.221.285-.332.094-.11.127-.189.189-.316.062-.127.031-.239-.016-.333-.047-.094-.424-1.021-.58-1.401-.153-.369-.311-.319-.425-.325-.109-.005-.236-.006-.363-.006z" />
+                    </svg>
+                </span>
+            </a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container footer-content">
+            <img src="logotipo.webp" alt="Liver 360°" class="footer-logo">
+            <span class="footer-divider">|</span>
+            <span class="footer-text">Liver Instituto do Fígado de Goiás Todos os direitos reservados</span>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js?v=2"></script>
+</body>
+
+</html>
